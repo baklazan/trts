@@ -1,0 +1,31 @@
+width=15 height=10
+  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  1 0 0 0 0 0 0 0 1 0 0 0 0 0 1
+  1 0 0 0 0 0 1 1 1 0 0 0 0 0 1
+  1 0 0 0 0 0 1 0 0 0 0 0 0 0 1
+  1 0 0 0 0 0 1 0 0 0 0 0 0 0 1
+  1 0 0 0 1 1 1 0 0 0 1 1 0 0 1
+  1 0 0 0 0 0 0 0 0 0 1 1 0 0 1
+  1 1 0 0 0 0 0 0 0 0 0 0 0 0 1
+  1 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+n_players=1
+n_units=3
+  id=0 n_abilities=5
+    occupy_space id=0 x=4.0 y=5.0 r=0.5
+    move id=1 speed=0.1
+    take_damage id=2 max_health=200 health=100
+    attack id=3 range=0.75 damage=3
+    be_owned id=4 owner_id=0
+  id=1 n_abilities=5
+    occupy_space id=5 x=6.0 y=5.0 r=0.5
+    move id=6 speed=0.5
+    take_damage id=7 max_health=50 health=50
+    attack id=8 range=2 damage=1
+    be_owned id=9 owner_id=0
+  id=2 n_abilities=5
+    occupy_space id=0 x=10.0 y=8.0 r=0.65
+    move id=10 speed=0.3
+    take_damage id=11 max_health=500 health=500
+    attack id=12 range=0.75 damage=3
+    be_owned id=13 owner_id=1
